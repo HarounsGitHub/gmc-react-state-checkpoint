@@ -46,9 +46,7 @@ class App extends Component {
         {shows ? (
           <>
             {/* Button to toggle the shows state */}
-            <button className="btn btn-primary" onClick={this.clickHandler}>
-              Hide
-            </button>
+            <button onClick={this.clickHandler}>Hide</button>
             <br />
             {/* Styling to crop the profile picture (Irelevant to the checkpoint)*/}
             <div
